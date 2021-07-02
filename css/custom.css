@@ -1,0 +1,174 @@
+.menu-block-7 li {
+    display: inline;
+}
+@media="screen and (min-device-width: 1024px)" .content-main-menu .arrow {
+    background-image: url(../images/mainmenu-popup-arrow.png);
+    height: 15px;
+    position: absolute;
+    top: -15px;
+    width: 30px;
+}
+h1, h2, h3 {
+     color: #21688c;
+}
+h4, h5 {
+    color: #2f2f2f;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1rem;
+}
+h3 {
+    font-size: 1.38rem;
+    font-weight: 500;
+}
+h4 {
+   font-size: 1.5625rem;
+}
+h5 {
+   font-size: 1.33rem;
+   font-weight: 500;
+}
+
+/* webform display label block */
+	
+.webform-container-inline label{
+    display:block !important;
+}
+
+.webform-client-form label[for="edit-url"], .webform-client-form #edit-url {
+    display: none;
+}
+
+/* nakkushaigused web view design */
+
+.view-nakkushaigused a {
+    font-family: "Museo500", sans-serif;
+    color: #21688c;
+    font-size: 19px;
+}
+
+.node-nakkushaigused-leotelu li {
+    background: url(../images/custom-bullet-romb.png) no-repeat 10px 3px;
+    padding: 0 0 0 30px;
+}
+
+.node-nakkushaigused-leotelu li, .node-nakkushaigused-leotelu .field .field-label {
+   margin: 10px 0px;
+}
+
+.view-nakkushaigused-loetelu-attachment-block a, .view-nakkushaigused-loetelu-attachment-block a:visited, .views-summary-unformatted a {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #00688c;
+    border: 2px solid #f7f7f7;
+}
+
+.views-summary-unformatted a {
+   padding: 10px;
+}
+
+.view-nakkushaigused-loetelu-attachment-block a:hover, .view-nakkushaigused-loetelu-attachment-block a:focus {
+    color: #bd4832;
+}
+
+#block-views-nakkushaigused-loetelu-block-1 .view-content:nth-child(2) {
+    padding: 20px;
+    background-color: #f7f6f1;
+    column-count: 2;
+}
+
+
+.view-nakkushaigused-loetelu .views-summary.views-summary-unformatted, .view-id-nakkushaigused_loetelu_attachment_block .views-summary.views-summary-unformatted {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 2px;
+    width: 2.5em;
+}
+
+.view-nakkushaigused-loetelu > div.view-content {
+    width: 45%;
+}
+
+.view-nakkushaigused-loetelu > .view-count {
+    background-color: #f7f6f1;
+    padding: 30px;
+}
+
+.view-nakkushaigused-loetelu .views-field-title a {
+    border-bottom: 1px dotted #D3D3D3;
+}
+
+.view-id-laborid td, .view-id-laborid_failid td {
+   padding-bottom: 10px;
+}
+
+.view-id-laborid .view-filters, .view-id-laborid_failid .view-filters {
+    display: block;
+}
+
+.view-id-laborid .views-field, .view-id-laborid_failid .views-field {
+    margin-bottom: 30px;
+}
+
+.view-id-laborid .view-filters, .view-id-laborid_failid .view-content {
+    float: left;
+}
+
+#talendipank_jobads tr:hover{
+       background-color: #f8f8ff;
+       color:#00668C;
+}
+
+#talendipank_jobads thead{
+       background-color: #EFEDE3;
+}
+
+# search
+
+#search-sidebar {
+    width: 28%;
+}
+
+.page-search .content h2 {
+    float: left;
+    padding: 0px 10px 10px 20px;
+}
+
+.search-results.node-results {
+    float: left;
+    width: 70%;
+    padding: 0 10px;
+}
+
+.search-results .title {
+    padding: 5px 20px;
+}
+
+@media screen and (max-device-width: 660px)	{
+  .webform-component-textfield label {
+     text-align: left;
+     font-family: "Roboto Condensed",sans-serif
+   }
+   #block-views-nakkushaigused-loetelu-block-1 .view-content:nth-child(2) {
+     column-count: unset; 
+   }
+   .view-nakkushaigused-loetelu > div.view-content:nth-child(1) {
+     width: 100%;
+   }
+   .view-nakkushaigused-loetelu > div.view-content:nth-child(2) {
+    width: 90%;
+   }
+}
+
+@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {}
+  .block-main-menu .menu-block-wrapper ul li a {
+    font-size: 12px;
+    margin-right: 10px;
+ }
+}
+
+
+

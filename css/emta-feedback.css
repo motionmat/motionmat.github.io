@@ -1,0 +1,186 @@
+#emta-feedback-node-form {
+  background-color: #f8f8f8;
+  padding: 10px 10px 10px;
+  box-sizing: border-box; }
+#emta-feedback-node-form .form-item-helpful label {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #002222; }
+#emta-feedback-node-form .form-item-helpful .form-type-radio {
+  display: inline-block; }
+#emta-feedback-node-form .form-item-helpful .form-type-radio label {
+  display: inline-block;
+  width: 60px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #efefef;
+  border: 1px solid #c6c6c6;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box; }
+#emta-feedback-node-form .form-item-helpful .form-type-radio label.active {
+  color: #fff;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.45);
+  background-color: #00a651;
+  border-color: #007236; }
+#emta-feedback-node-form .form-item-helpful .form-type-radio:first-child label.active {
+  background-color: #bd4932;
+  border-color: #bc1a1e; }
+#emta-feedback-node-form .form-item-helpful .form-type-radio .form-radio {
+  display: none; }
+#emta-feedback-node-form .form-type-textarea,
+#emta-feedback-node-form .form-type-textfield {
+  width: 240px; }
+#emta-feedback-node-form .form-type-textarea label,
+#emta-feedback-node-form .form-type-textfield label {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: #222222;
+  padding-bottom: .25em; }
+#emta-feedback-node-form .form-type-textarea textarea,
+#emta-feedback-node-form .form-type-textarea input[type="text"],
+#emta-feedback-node-form .form-type-textfield textarea,
+#emta-feedback-node-form .form-type-textfield input[type="text"] {
+  width: 240px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: #222;
+  box-sizing: border-box; }
+#emta-feedback-node-form .form-type-textarea textarea,
+#emta-feedback-node-form .form-type-textfield textarea {
+  line-height: 1.25;
+  resize: none;
+  border-color: #00698c; }
+#emta-feedback-node-form .form-type-textarea input[type="text"],
+#emta-feedback-node-form .form-type-textfield input[type="text"] {
+  height: 25px;
+  padding: 0 10px; }
+#emta-feedback-node-form .form-type-textarea .counter,
+#emta-feedback-node-form .form-type-textfield .counter {
+  font-size: 10px;
+  color: #666; }
+#emta-feedback-node-form .form-actions {
+  position: static;
+  max-width: 240px;
+  text-align: right; }
+#emta-feedback-node-form .form-actions .form-submit {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  margin: 0;
+  padding: 4px 10px;
+  background-color: #00698c;
+  border: 1px solid #464646;
+  box-shadow: none;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.45);
+  text-transform: none; }
+#emta-feedback-node-form .form-actions .captcha {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+#emta-feedback-node-form .ajax-progress {
+  display: none; }
+#emta-feedback-node-form.active #edit-feedback-comment-container {
+  display: block !important; }
+
+.feedback-submitted {
+  width: 100%;
+  padding: 20px 15px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #002222;
+  background-color: #efede3;
+  box-sizing: border-box; }
+.feedback-submitted:before {
+  content: ' ';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+  vertical-align: middle;
+  background: url(../images/feedback-submitted.png) no-repeat center; }
+
+#rc-imageselect,
+.g-recaptcha {
+  transform: scale(0.77);
+  -webkit-transform: scale(0.77);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0; }
+
+.gc-bubbleDefault.pls-container {
+  transform: scale(0.87);
+  -webkit-transform: scale(0.87);
+  transform-origin: 110px 0;
+  -webkit-transform-origin: 110px 0; }
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+
+  #emta-feedback-node-form {
+    padding: 10px 20px 14px;
+    width: 100%; }
+  #emta-feedback-node-form .form-type-textarea,
+  #emta-feedback-node-form .form-type-textfield {
+    width: 290px; }
+  #emta-feedback-node-form .form-type-textarea textarea,
+  #emta-feedback-node-form .form-type-textarea input[type="text"],
+  #emta-feedback-node-form .form-type-textfield textarea,
+  #emta-feedback-node-form .form-type-textfield input[type="text"] {
+    width: 290px;
+    font-size: 12px;
+    font-size: 0.75rem; }
+  #emta-feedback-node-form .form-actions {
+    max-width: 290px;
+    text-align: right; }
+  #emta-feedback-node-form .g-recaptcha {
+    margin-left: 0; }
+
+  .feedback-submitted {
+    width: 100%;
+    padding: 20px 15px;
+    font-size: 15px;
+    font-size: 0.9375rem; }
+}
+
+@media screen and (min-width: 1024px) {
+  #emta-feedback-node-form {
+    padding: 10px 20px 14px;
+    width: 50%;
+    margin: 0; }
+  #emta-feedback-node-form .form-type-textarea,
+  #emta-feedback-node-form .form-type-textfield {
+    width: 290px; }
+  #emta-feedback-node-form .form-type-textarea textarea,
+  #emta-feedback-node-form .form-type-textarea input[type="text"],
+  #emta-feedback-node-form .form-type-textfield textarea,
+  #emta-feedback-node-form .form-type-textfield input[type="text"] {
+    width: 290px;
+    font-size: 12px;
+    font-size: 0.75rem; }
+  #emta-feedback-node-form .form-actions {
+    max-width: 290px;
+    text-align: right; }
+
+  .feedback-submitted {
+    width: 50%;
+    padding: 20px 15px;
+    font-size: 15px;
+    font-size: 0.9375rem; }
+
+  #rc-imageselect,
+  .g-recaptcha {
+    transform: none;
+    -webkit-transform: none;
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0; }
+
+  .gc-bubbleDefault.pls-container {
+    transform: none;
+    -webkit-transform: none;
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0; }
+
+}
